@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+{% include toc %}
+
 I am an **M.Sc. in Artificial Intelligence** student at **Nanyang Technological University (NTU)** in Singapore. My expertise lies in bridging the gap between advanced AI research and production-scale engineering, with a focus on generative models, LLMs, and efficient machine learning systems.
 
 I graduated **Cum Laude** with a B.Sc. in Computer Science from **Universitas Gadjah Mada (UGM)**.
@@ -14,7 +16,7 @@ I graduated **Cum Laude** with a B.Sc. in Computer Science from **Universitas Ga
 Professional Experience
 ======
 
-### **Data Scientist | JULO** *(May 2022 – July 2025)*
+**Data Scientist @ JULO** *(May 2022 – July 2025)*
 
 * **Credit Scoring & Risk:** Architected end-to-end credit scoring engines using XGBoost and LightGBM.
 * **Low-Latency Systems:** Engineered a real-time risk system that increased Risk-Adjusted Returns (RAR) by 30% while maintaining sub-second inference speeds.
