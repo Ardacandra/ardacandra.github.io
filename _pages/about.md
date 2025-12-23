@@ -22,14 +22,43 @@ Professional Experience
 * **Observability:** Built automated dashboards to monitor concept drift (PSI) and business metrics like ROI and CLV.
 * **Leadership:** Mentored junior data scientists on ML best practices and internal domain logic.
 
-Research & Key Projects
+Portofolio
 ======
 
-* **Style Diffusion Reproduction (ICCV 2023):** Reproduced the full DDPM pipeline in PyTorch, implementing attention mechanisms and novel multi-style blending capabilities.
-* **Local RAG Document Q&A:** Developed a privacy-first RAG pipeline for unstructured PDFs using LlamaIndex, ChromaDB, and local LLMs via Ollama.
-* **Deepfake Audio Detection:** Won Runner-up at the DeepDetect Hackathon 2025 for a Transformer-based classifier achieving 99.98% accuracy.
-* **CapsNet COVID-19 Diagnostics:** Received the Best Paper Award at SINAPTIKA 2020 for research using Capsule Networks for viewpoint-invariant medical imaging.
-* **Intelligent Mask Detection:** Developed a Faster R-CNN model optimized for real-time inference on resource-constrained hardware.
+* **Style Diffusion Reproduction (ICCV 2023):** 
+  * Reproduced the complete DDPM architecture and attention mechanisms in PyTorch.
+  * Implemented CLIP-based disentanglement to match official quality while adding novel multi-style blending capabilities.
+  * [Github Link](https://github.com/ntu-ai-group-10/style_diffusion_reproduction)
+  
+  ![porto__style_diffusion__image_grid_output](/images/porto__style_diffusion__image_grid_output.png)
+
+  ![porto__style_diffusion__image_grid_output_style_mix](/images/porto__style_diffusion__image_grid_output_style_mix.png)
+
+* **Local RAG Document Q&A:** 
+  * Developed a privacy-focused RAG pipeline for unstructured PDFs using LlamaIndex and ChromaDB.
+  * Integrated a two-stage retrieval strategy (High-K + Reranking) powered by local LLMs via Ollama.
+  * [Github Link](https://github.com/Ardacandra/rag_document_qna)
+
+  ![porto__rag__sample_output](/images/porto__rag__sample_output.png)
+  
+* **Deepfake Audio Detection:** 
+  * Created a Transformer-based classifier for AI-synthesized speech (TTS/VC) using Librosa for signal processing.
+  * Achieved a 99.98% test accuracy, securing Runner-up at the DeepDetect Hackathon 2025.
+  * [Github Link](https://github.com/Ardacandra/deepdetect_audio_deepfake_detection_challenge)
+
+* **CapsNet COVID-19 Diagnostics:** 
+  * Trained a Capsule Network on over 6,300 chest X-rays to classify COVID-19 and Pneumonia cases.
+  * Utilized dynamic routing for viewpoint invariance, achieving 94.29% accuracy with fewer parameters than standard CNNs.
+  * [Github Link](https://github.com/Yakuy/CapsNet-Covid19-X-Ray-Detection)
+
+* **Intelligent Mask Detection:** 
+  * Developed a Faster R-CNN model optimized for real-time inference on resource-constrained hardware like the GTX 960.
+  * Recognized as the Winner of the Codig 3.0 Data Mining Competition.
+  * [Github Link](https://github.com/Yakuy/proper-use-of-mask-detection)
+
+    ![porto__mask_detection__sample_output](/images/porto__mask_detection__sample_output.png)
+
+    ![porto__mask_detection__demo](/images/porto__mask_detection__demo.gif)
 
 Publications
 ======
