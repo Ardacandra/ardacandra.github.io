@@ -31,6 +31,19 @@ Research & Key Projects
 * **CapsNet COVID-19 Diagnostics:** Received the Best Paper Award at SINAPTIKA 2020 for research using Capsule Networks for viewpoint-invariant medical imaging.
 * **Intelligent Mask Detection:** Developed a Faster R-CNN model optimized for real-time inference on resource-constrained hardware.
 
+Publications
+======
+
+* **Human Face Detection and Tracking Using RetinaFace Network for Surveillance Systems**
+    * **Venue:** 47th Annual Conference of the IEEE Industrial Electronics Society (IECON), 2021.
+    * **Excerpt:** Engineered a CCTV face tracking pipeline using RetinaFace and detection-based tracking, improving face detection recall by 4.47% in low-illumination environments.
+    * [Paper Link](https://ieeexplore.ieee.org/document/9589577)
+
+* **Medical Subject Headings (MeSH) Indexing Using Unsupervised Learning**
+    * **Venue:** 2021 International Conference on Computer, Control, Informatics and Its Applications (ICCCIA).
+    * **Excerpt:** Implemented Latent Dirichlet Allocation (LDA) for unsupervised topic modeling to automate MeSH indexing, achieving a 74% topic similarity match against human-expert labels.
+    * [Paper Link](https://dl.acm.org/doi/10.1145/3489088.3489096)
+
 Technical Toolkit
 ======
 
