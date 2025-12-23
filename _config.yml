@@ -23,7 +23,7 @@ repository               : "Ardacandra/ardacandra.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Ardacandra Subiantoro"
   pronouns         : "him" # example: "she/her"  
   bio              : "M.Sc. in Artificial Intelligence at NTU | Data Scientist"
