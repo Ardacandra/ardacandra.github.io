@@ -215,6 +215,34 @@ Key design:
 
 ---
 
+### Style Diffusion Reproduction (ICCV 2023)
+
+[GitHub](https://github.com/ntu-ai-group-10/style_diffusion_reproduction)
+
+Reproduced the complete **DDPM architecture** and attention mechanisms in PyTorch, implementing CLIP-based disentanglement to match official quality while adding novel **multi-style blending** capabilities.
+
+![Style Diffusion Grid Output](/images/porto__style_diffusion__image_grid_output.png)
+
+![Style Diffusion Style Mix](/images/porto__style_diffusion__image_grid_output_style_mix.png)
+
+*Stack: Python, PyTorch*
+
+---
+
+### Intelligent Mask Detection — Winner, Codig 3.0 Data Mining Competition
+
+[GitHub](https://github.com/Yakuy/proper-use-of-mask-detection)
+
+Developed a **Faster R-CNN** model optimised for real-time inference on resource-constrained hardware (GTX 960). Recognised as the Winner of the Codig 3.0 Data Mining Competition.
+
+![Mask Detection Sample Output](/images/porto__mask_detection__sample_output.png)
+
+![Mask Detection Demo](/images/porto__mask_detection__demo.gif)
+
+*Stack: Python, PyTorch*
+
+---
+
 Publications
 ======
 
