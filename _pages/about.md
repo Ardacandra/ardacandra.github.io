@@ -7,135 +7,241 @@ redirect_from:
   - /about.html
 ---
 
-{% include toc %}
+I am an **AI Engineer / Data Scientist** with 3+ years building production ML systems. My expertise spans **Credit Scoring, LLMs, Generative AI (Diffusion Models), 3D Deep Learning, and Multi-Agent Systems**. Currently pursuing an **M.Sc. in Artificial Intelligence** at **Nanyang Technological University (NTU), Singapore**. Experienced in end-to-end model deployment on GCP/AWS, MLOps, and real-time inference at scale.
 
-I am an **M.Sc. in Artificial Intelligence** student at **Nanyang Technological University (NTU)** in Singapore. My expertise lies in bridging the gap between advanced AI research and production-scale engineering, with a focus on generative models, LLMs, and efficient machine learning systems.
+---
 
-I graduated **Cum Laude** with a B.Sc. in Computer Science from **Universitas Gadjah Mada (UGM)**.
-
-Professional Experience
+Education
 ======
 
-**Data Scientist @ JULO** *(May 2022 – July 2025)*
+**M.Sc. in Artificial Intelligence** — Nanyang Technological University, Singapore *(Aug 2025 – Jun 2026)*  
+GPA: 4.30/5.00 · Expected Graduation: Jun 2026  
+Relevant Courses: Generative AI for Visual Synthesis, Large Language Models, 3D Deep Learning, Multi-Agent Systems, Advanced Computer Vision
 
-* **Credit Scoring & Risk:** Architected end-to-end credit scoring engines using XGBoost and LightGBM.
-* **Low-Latency Systems:** Engineered a real-time risk system that increased Risk-Adjusted Returns (RAR) by 30% while maintaining sub-second inference speeds.
-* **ML Infrastructure:** Led the migration of ML workflows from AWS to GCP, accelerating model training cycles from 5 days to 1 day.
-* **Observability:** Built automated dashboards to monitor concept drift (PSI) and business metrics like ROI and CLV.
-* **Leadership:** Mentored junior data scientists on ML best practices and internal domain logic.
+**B.Sc. in Computer Science** — Universitas Gadjah Mada, Indonesia *(Aug 2018 – Feb 2022)*  
+GPA: 3.91/4.00 · Graduated Cum Laude
 
-Portofolio
+---
+
+Technical Skills
 ======
 
-* **Style Diffusion Reproduction (ICCV 2023):** 
-  * Reproduced the complete DDPM architecture and attention mechanisms in PyTorch.
-  * Implemented CLIP-based disentanglement to match official quality while adding novel multi-style blending capabilities.
-  * [Github Link](https://github.com/ntu-ai-group-10/style_diffusion_reproduction)
-  
-  ![porto__style_diffusion__image_grid_output](/images/porto__style_diffusion__image_grid_output.png)
+* **Programming Languages:** Python, Java, SQL
+* **LLM & GenAI:** LangChain, LlamaIndex, OpenAI API, Anthropic API, Hugging Face, PEFT/LoRA, Ollama, vLLM, Prompt Engineering
+* **ML & Frameworks:** PyTorch, TensorFlow, Scikit-Learn, XGBoost, LightGBM, OpenCV, Librosa, DDPM/Diffusion Models
+* **MLOps & Infra:** GCP (BigQuery, Vertex AI, Compute Engine), AWS (EC2, Redshift), Docker, FastAPI, CI/CD, Git/GitHub, Cloud Migration
+* **Data & Databases:** PostgreSQL, BigQuery, Apache Airflow, Metabase, Tableau, A/B Testing, Feature Engineering
+* **Domains:** Generative AI, RAG Pipelines, Computer Vision, Audio Signal Processing, NLP/Text Mining, Real-Time Inference, Smartwatch/Wearable Development
+* **Other:** HarmonyOS, ArkTS (TypeScript for HarmonyOS)
 
-  ![porto__style_diffusion__image_grid_output_style_mix](/images/porto__style_diffusion__image_grid_output_style_mix.png)
+---
 
-* **Local RAG Document Q&A:** 
-  * Developed a privacy-focused RAG pipeline for unstructured PDFs using LlamaIndex and ChromaDB.
-  * Integrated a two-stage retrieval strategy (High-K + Reranking) powered by local LLMs via Ollama.
-  * [Github Link](https://github.com/Ardacandra/rag_document_qna)
+Work Experience
+======
 
-  ![porto__rag__sample_output](/images/porto__rag__sample_output.png)
-  
-* **Deepfake Audio Detection:** 
-  * Created a Transformer-based classifier for AI-synthesized speech (TTS/VC) using Librosa for signal processing.
-  * Achieved a 99.98% test accuracy, securing Runner-up at the DeepDetect Hackathon 2025.
-  * [Github Link](https://github.com/Ardacandra/deepdetect_audio_deepfake_detection_challenge)
+**Data Scientist \| JULO (Fintech Lending), Jakarta, Indonesia** *(May 2022 – Jul 2025)*
 
-* **CapsNet COVID-19 Diagnostics:** 
-  * Trained a Capsule Network on over 6,300 chest X-rays to classify COVID-19 and Pneumonia cases.
-  * Utilized dynamic routing for viewpoint invariance, achieving 94.29% accuracy with fewer parameters than standard CNNs.
-  * [Github Link](https://github.com/Yakuy/CapsNet-Covid19-X-Ray-Detection)
+* **Credit Scoring Engine:** Architected and deployed a full suite of credit models — Income Prediction, Application Score (B-Score), and Collection Prioritisation — on GCP using XGBoost and LightGBM. Models directly determined credit limits and recovery strategies across the user base.
+* **Real-Time Risk System:** Engineered a low-latency, transaction-level risk scoring model achieving sub-second response times while increasing Risk-Adjusted Returns (RAR) by 30%.
+* **Advanced Feature Engineering:** Designed complex feature logic in Python and SQL integrating internal behavioural data with external sources, improving model AUC by 10–20% across the credit model suite.
+* **ML Infrastructure & MLOps:** Led migration of all ML workflows from AWS to GCP, reducing model retraining cycles from 3–5 days to 1 day.
+* **Model Observability & Monitoring:** Built comprehensive dashboards in Metabase and BigQuery tracking concept drift (PSI), prediction score distributions, and business KPIs (ROI, CLV).
+* **Technical Mentorship:** Mentored 2 Junior Data Scientists with weekly knowledge-sharing sessions on ML best practices and credit risk domain knowledge.
 
-* **Intelligent Mask Detection:** 
-  * Developed a Faster R-CNN model optimized for real-time inference on resource-constrained hardware like the GTX 960.
-  * Recognized as the Winner of the Codig 3.0 Data Mining Competition.
-  * [Github Link](https://github.com/Yakuy/proper-use-of-mask-detection)
+**AI Research Assistant \| Universitas Gadjah Mada, Yogyakarta, Indonesia** *(Oct 2020 – Mar 2021)*
 
-    ![porto__mask_detection__sample_output](/images/porto__mask_detection__sample_output.png)
+* **Computer Vision:** Built a CCTV face-tracking pipeline with RetinaFace + detection-based tracking; improved recall by 4.47% in low-illumination conditions via a custom post-processing algorithm.
+* **NLP:** Applied Latent Dirichlet Allocation (LDA) for automated MeSH biomedical indexing, achieving 74% topic similarity vs. human-expert labels.
 
-    ![porto__mask_detection__demo](/images/porto__mask_detection__demo.gif)
+**Data Science Intern \| Bukit Vista, Yogyakarta, Indonesia** *(Sep – Nov 2021)*
+
+* Designed dynamic pricing strategies from historical booking data, adopted by the Business Intelligence unit to optimise occupancy revenue.
+* Executed ETL and data validation workflows to ensure high-integrity datasets for downstream reporting.
+
+---
+
+Projects
+======
+
+### Deepfake Audio Detection — Runner-up, DeepDetect Hackathon 2025
+
+[GitHub](https://github.com/Ardacandra/deepdetect_audio_deepfake_detection_challenge)
+
+Developed a **Transformer-based classifier** for AI-synthesised speech (TTS & voice conversion) achieving **99.98% test accuracy** (Rank 2 on the public leaderboard). The pipeline progresses from classical ML baselines (CatBoost: 0.989) to wav2vec2 feed-forward networks (0.996) to a CNN + Transformer hybrid with Mixup augmentation (0.999), with an ML-committee post-hoc correction stage for uncertain samples.
+
+![Leaderboard](/images/porto__deepfake__leaderboard.png)
+
+**Audio Signal Analysis — Real vs. Fake:**
+
+| | Real | Fake |
+|---|---|---|
+| Waveform | ![Real waveform](/images/porto__deepfake__waveform_real.png) | ![Fake waveform](/images/porto__deepfake__waveform_fake.png) |
+| Spectrogram | ![Real spectrogram](/images/porto__deepfake__spectrogram_real.png) | ![Fake spectrogram](/images/porto__deepfake__spectrogram_fake.png) |
+
+**HybridAudioClassifier Training (CNN + Transformer + Mixup):**
+
+| Loss | F1-Score |
+|---|---|
+| ![Training Loss](/images/porto__deepfake__dl_hybrid_loss.png) | ![F1-Score](/images/porto__deepfake__dl_hybrid_f1.png) |
+
+**Final Model Evaluation:**
+
+| Confusion Matrix | ROC Curve |
+|---|---|
+| ![Confusion Matrix](/images/porto__deepfake__confusion_matrix.png) | ![ROC Curve](/images/porto__deepfake__roc_curve.png) |
+
+| Stage | Leaderboard Score |
+|---|---|
+| HybridAudioClassifier + Mixup | 0.99939 |
+| + ML committee blending | 0.99962 |
+| **+ Qualitative corrections (final)** | **0.99984** |
+
+*Stack: Python, PyTorch, Librosa*
+
+---
+
+### CelebAMask Face Parsing — Advanced Computer Vision (NTU AI6126)
+
+[GitHub](https://github.com/Ardacandra/ai6126_CelebAMask_face_parsing)
+
+Designed and trained a **Lite-Face Parser (LFP)** for semantic face segmentation on CelebAMask-HQ (1,000 training pairs at 512×512), achieving an **F1-score of 0.83**. The LFP architecture uses three parallel paths (Context, Detail, Texture) integrated via a Weighted Bi-Fusion Decoder with Prototype Refinement and Edge-Guided Fusion, with a combined CE + Dice + Boundary loss and post-processing (small component removal + majority filter).
+
+**Architecture:**
+
+![Lite-Face Parser Architecture](/images/porto__celebamask__architecture.png)
+
+**Qualitative Results — Input vs. SRResNet Baseline vs. Lite-Face Parser:**
+
+| Input Image | SRResNet Baseline | Lite-Face Parser |
+|:---:|:---:|:---:|
+| ![Input](/images/porto__celebamask__original.jpg) | ![SRResNet](/images/porto__celebamask__mask_srr.png) | ![LFP](/images/porto__celebamask__mask_lfp.png) |
+
+| Model | Parameters | F-score |
+|---|---|---|
+| SRResNet | 1,428,762 | 0.6357 |
+| **Lite-Face Parser** | **1,820,207** | **0.7429** |
+
+*Stack: Python, PyTorch*
+
+---
+
+### 3D Shape Reconstruction & Generation — VQ-DeepSDF with AR Transformer Prior (NTU AI6131)
+
+[GitHub](https://github.com/Ardacandra/ai6131_3d_deep_learning_final_project)
+
+Implemented **Generative DeepSDF**: a Vector-Quantised (VQ) bottleneck over the DeepSDF autodecoder discretises the latent manifold into a learned codebook, then a **causal AR Transformer** models the distribution of discrete shape sequences for novel 3D synthesis. Evaluated on ShapeNet (Chair, Table, Airplane — 50 objects each).
+
+**Reconstruction Fidelity:**
+
+| Ground Truth | Baseline DeepSDF | Generative DeepSDF |
+|:---:|:---:|:---:|
+| ![Ground Truth](/images/porto__3d__gt.png) | ![Baseline Reconstruction](/images/porto__3d__baseline_recon.png) | ![Generative Reconstruction](/images/porto__3d__generative_recon.png) |
+
+**Latent Space — Discrete Code Heatmap:**
+
+![Latent Codes](/images/porto__3d__latent_codes.png)
+
+**Novel Shape Generation (AR Prior vs. Gaussian Baseline):**
+
+| AR Prior Gen 1 | AR Prior Gen 2 | AR Prior Gen 3 |
+|:---:|:---:|:---:|
+| ![AR Gen 1](/images/porto__3d__ar_gen_1.png) | ![AR Gen 2](/images/porto__3d__ar_gen_2.png) | ![AR Gen 3](/images/porto__3d__ar_gen_3.png) |
+
+| Method | Chamfer Distance ↓ | Silhouette ↑ | MMD ↓ |
+|---|---|---|---|
+| Baseline DeepSDF | 0.1288 | 0.0522 | 0.3282 |
+| **Generative DeepSDF** | 0.1396 | **0.1298** | **0.1046** |
+
+*Stack: Python, PyTorch, HuggingFace*
+
+---
+
+### Local RAG Document Q&A
+
+[GitHub](https://github.com/Ardacandra/rag_document_qna)
+
+Built a **privacy-first Retrieval-Augmented Generation** pipeline for unstructured PDFs using LlamaIndex and local LLMs via Ollama — no external API calls. Implements two-stage retrieval (High-K + reranking) to maximise context precision.
+
+![RAG Sample Output](/images/porto__rag__sample_output.png)
+
+*Stack: Python, LlamaIndex, Ollama*
+
+---
+
+### Tileworld Multi-Agent System (NTU AI6125)
+
+[GitHub](https://github.com/ntu-ai6125-2026-group-2/ai6125_tileworld_agent)
+
+Designed and implemented intelligent **Java agents** for the Tileworld simulation environment, incorporating planning, working memory, and inter-agent communication modules. Agents evaluated across multiple environment configurations (50×50 and 80×80 grids, varying object creation rates and lifetimes) over 10-run statistical benchmarks maximising cumulative reward.
+
+Key design:
+* **Planning module** — reacts to sensed environment and updates memory for next-action planning
+* **Memory module** — `TWAgentWorkingMemory` stores environmental state across steps
+* **Communication module** — per-step broadcast messaging between agents
+
+*Stack: Java*
+
+---
+
+### Anchor — Wearable Safety Companion for Seniors (Hackathon)
+
+[GitHub](https://github.com/Runtime-Terrors-v2/Anchor)
+
+**ANCHOR** is a HarmonyOS smartwatch app for senior safety combining **dual-signal geofencing** (accelerometer + GPS) and a **logistic regression fall detector** trained on the SisFall dataset. A full-stack wearable system with watch-to-phone P2P messaging, push notifications, and caregiver alert pipeline.
+
+**Key features:**
+* Geofencing with three drift states: `SAFE` → `DRIFTING` (30–50m) → `ALERT` (>50m), requiring both walking and GPS signals to minimise false alarms
+* Two parallel fall detectors: threshold-based (>25 m/s² impact) and ML classifier
+* Caregiver phone app with alert history, emergency contacts, and watch disconnect notifications
+* Community card for first-responders stored on the watch
+
+**Watch App:**
+
+![Watch UI](/images/porto__anchor__watch_ui.png)
+
+**Caregiver Phone App:**
+
+![Phone UI](/images/porto__anchor__phone_ui.png)
+
+**Watch App Demo:**
+
+![Watch App Demo](/images/porto__anchor__demo_watch.gif)
+
+**Phone App Demo:**
+
+![Phone App Demo](/images/porto__anchor__demo_mobile.gif)
+
+*Stack: ArkTS, HarmonyOS, TypeScript*
+
+---
 
 Publications
 ======
 
-* **Human Face Detection and Tracking Using RetinaFace Network for Surveillance Systems**
-    * **Venue:** 47th Annual Conference of the IEEE Industrial Electronics Society (IECON), 2021.
-    * **Excerpt:** Engineered a CCTV face tracking pipeline using RetinaFace and detection-based tracking, improving face detection recall by 4.47% in low-illumination environments.
-    * [Paper Link](https://ieeexplore.ieee.org/document/9589577)
+* **Human Face Detection and Tracking Using RetinaFace Network**  
+  *47th Annual Conference of the IEEE Industrial Electronics Society (IECON 2021)*  
+  Engineered a CCTV face tracking pipeline using RetinaFace and detection-based tracking, improving face detection recall by 4.47% in low-illumination environments.  
+  [Paper Link](https://ieeexplore.ieee.org/document/9589577)
 
-* **Medical Subject Headings (MeSH) Indexing Using Unsupervised Learning**
-    * **Venue:** 2021 International Conference on Computer, Control, Informatics and Its Applications (ICCCIA).
-    * **Excerpt:** Implemented Latent Dirichlet Allocation (LDA) for unsupervised topic modeling to automate MeSH indexing, achieving a 74% topic similarity match against human-expert labels.
-    * [Paper Link](https://dl.acm.org/doi/10.1145/3489088.3489096)
+* **Medical Subject Headings (MeSH) Indexing Using Unsupervised Learning**  
+  *2021 International Conference on Computer, Control, Informatics and Its Applications (ICCCIA 2021)*  
+  Applied Latent Dirichlet Allocation (LDA) for automated MeSH biomedical indexing, achieving 74% topic similarity vs. human-expert labels.  
+  [Paper Link](https://dl.acm.org/doi/10.1145/3489088.3489096)
 
-Technical Toolkit
+---
+
+Languages
 ======
 
-* **Programming & Databases:** Python, SQL.
-* **ML Frameworks:** PyTorch, TensorFlow, Scikit-Learn, Hugging Face, LlamaIndex, OpenCV.
-* **Cloud & MLOps:** GCP (BigQuery, Compute Engine), AWS, Docker, Git/GitHub, CI/CD.
-* **Domain Expertise:** Generative AI, LLMs, Financial Risk Modeling, Computer Vision, and Audio Signal Processing.
+English (Full Professional) · Bahasa Indonesia (Native)
+
+---
 
 Let's Connect
 ======
 
-I am currently based in **Singapore** and am open to collaborations in AI research or engineering.
+Based in **Singapore**. Open to collaborations in AI research and engineering.
 
 * **Email:** [ardacandrasubiantoro@gmail.com](mailto:ardacandrasubiantoro@gmail.com)
 * **LinkedIn:** [linkedin.com/in/ardacandra-subiantoro](https://linkedin.com/in/ardacandra-subiantoro)
 * **GitHub:** [github.com/Ardacandra](https://github.com/Ardacandra)
-
-<!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
-
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
-
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
